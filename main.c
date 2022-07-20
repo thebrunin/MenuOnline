@@ -3,15 +3,21 @@
 
 int main()
 {
-    printf("Exercicio 17\n\n");
-    printf("MENU\n\n");
-    printf("1-Cachorro quente R$11,00;\n");
-    printf("2-Bauru R$8,50;\n");
-    printf("3-Misto quente R$8,00;\n");
-    printf("4-Hamburguer R$9,00;\n");
-    printf("5-Cheeseburguer R$10,00;\n");
-    printf("6-Refrigerante R$4,50;\n");
-    printf("7-Finalizar;\n");
+    printf("|======================================|\n");
+    printf("|        LISTA 02 - EXERCICIO 17       |\n");
+    printf("|======================================|\n");
+    printf("|         CARDAPIO - LANCHONETE        |\n");
+    printf("|======================================|\n");
+    printf("|  COD  |      PRODUTO      |   PRECO  |\n");
+    printf("|======================================|\n");
+    printf("|   1   |  Cachorro quente  | R$ 11.00 |\n");
+    printf("|   2   |  Bauru            | R$  8.50 |\n");
+    printf("|   3   |  Misto quente     | R$  8.00 |\n");
+    printf("|   4   |  Hamburger        | R$  9.00 |\n");
+    printf("|   5   |  Cheeseburger     | R$ 10.00 |\n");
+    printf("|   6   |  Refrigerante     | R$  4.50 |\n");
+    printf("|   7   |  Finalizar                   |\n");
+    printf("|======================================|\n");
 
     int pedido, num1=0, num2=0, num3=0, num4=0, num5=0, num6=0;
     float vtotal;
